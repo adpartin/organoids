@@ -1,0 +1,5 @@
+# Activate env
+conda activate salmon
+
+# Create index of the genome
+salmon index -t Homo_sapiens.GRCh38.cdna.all.fa.gz -i homo_sapiens_GRCh38_index
